@@ -10,6 +10,10 @@
 		7D77FE0319AA8940001CF6B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D77FE0219AA8940001CF6B2 /* Foundation.framework */; };
 		7D77FE0619AA8940001CF6B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE0519AA8940001CF6B2 /* main.m */; };
 		7D77FE0A19AA8940001CF6B2 /* PersonObject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D77FE0919AA8940001CF6B2 /* PersonObject.1 */; };
+		7D77FE1219AA89C5001CF6B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE1119AA89C5001CF6B2 /* Person.m */; };
+		7D77FE1519AA89DE001CF6B2 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE1419AA89DE001CF6B2 /* Employee.m */; };
+		7D77FE1819AA89F0001CF6B2 /* SalariedEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE1719AA89F0001CF6B2 /* SalariedEmployee.m */; };
+		7D77FE1B19AA8A12001CF6B2 /* HourlyEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE1A19AA8A12001CF6B2 /* HourlyEmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		7D77FE0519AA8940001CF6B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D77FE0819AA8940001CF6B2 /* PersonObject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonObject-Prefix.pch"; sourceTree = "<group>"; };
 		7D77FE0919AA8940001CF6B2 /* PersonObject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PersonObject.1; sourceTree = "<group>"; };
+		7D77FE1019AA89C5001CF6B2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7D77FE1119AA89C5001CF6B2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7D77FE1319AA89DE001CF6B2 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		7D77FE1419AA89DE001CF6B2 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		7D77FE1619AA89F0001CF6B2 /* SalariedEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalariedEmployee.h; sourceTree = "<group>"; };
+		7D77FE1719AA89F0001CF6B2 /* SalariedEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalariedEmployee.m; sourceTree = "<group>"; };
+		7D77FE1919AA8A12001CF6B2 /* HourlyEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourlyEmployee.h; sourceTree = "<group>"; };
+		7D77FE1A19AA8A12001CF6B2 /* HourlyEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourlyEmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,14 @@
 				7D77FE0519AA8940001CF6B2 /* main.m */,
 				7D77FE0919AA8940001CF6B2 /* PersonObject.1 */,
 				7D77FE0719AA8940001CF6B2 /* Supporting Files */,
+				7D77FE1019AA89C5001CF6B2 /* Person.h */,
+				7D77FE1119AA89C5001CF6B2 /* Person.m */,
+				7D77FE1319AA89DE001CF6B2 /* Employee.h */,
+				7D77FE1419AA89DE001CF6B2 /* Employee.m */,
+				7D77FE1619AA89F0001CF6B2 /* SalariedEmployee.h */,
+				7D77FE1719AA89F0001CF6B2 /* SalariedEmployee.m */,
+				7D77FE1919AA8A12001CF6B2 /* HourlyEmployee.h */,
+				7D77FE1A19AA8A12001CF6B2 /* HourlyEmployee.m */,
 			);
 			path = PersonObject;
 			sourceTree = "<group>";
@@ -139,6 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D77FE1519AA89DE001CF6B2 /* Employee.m in Sources */,
+				7D77FE1219AA89C5001CF6B2 /* Person.m in Sources */,
+				7D77FE1B19AA8A12001CF6B2 /* HourlyEmployee.m in Sources */,
+				7D77FE1819AA89F0001CF6B2 /* SalariedEmployee.m in Sources */,
 				7D77FE0619AA8940001CF6B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

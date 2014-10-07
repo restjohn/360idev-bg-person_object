@@ -7,15 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HourlyEmployee.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        HourlyEmployee* hourlyEmp = [[HourlyEmployee alloc] init];
+        hourlyEmp.name = @"Robert";
+        hourlyEmp.empId = @"1234";
+        hourlyEmp.hourlyRate = 7.5;
+        [hourlyEmp raiseCompensation];
     }
     return 0;
 }
